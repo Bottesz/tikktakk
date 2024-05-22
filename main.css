@@ -1,0 +1,22 @@
+main{
+    width: 400px;
+    margin: auto;
+
+}
+
+.jatekter{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    gap: 5px;
+}
+
+
+
+.jatekter div {
+    border: 1px solid gray;
+    width: 50px;
+    aspect-ratio: 1;
+    padding: 2px;
+    font-size: 30px;
+    text-align: center;
+}
